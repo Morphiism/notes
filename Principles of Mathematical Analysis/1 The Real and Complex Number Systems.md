@@ -786,7 +786,7 @@ $$
 
 ### Proof
 
-命题 (1)(2)(3) 是平凡的。命题 (4) 是 [[#Theorem 1.31 (Cauchy-Schwarz)]] 的直接推论，从而我们有
+命题 (1)(2) 是平凡的。命题 (3) 是 [[#Theorem 1.31 (Cauchy-Schwarz)]] 的直接推论，从而我们有
 
 $$
 \begin{align}
