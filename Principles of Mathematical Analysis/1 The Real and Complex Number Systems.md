@@ -217,8 +217,6 @@ $$
 
 # The Real Field 实数域
 
-本节通过有理数构造出了实数，并给出了实数完备性的若干推论。
-
 ## Theorem 1.16
 
 存在一个有序域 $\mathbb{R}$，其具有最小上界性质，且包含 $\mathbb{Q}$ 作为子域。
@@ -380,8 +378,8 @@ $$
 
 **第八步** 我们将每个 $r \in \mathbb{Q}$ 关联到有理分割 $r^{*}\in \mathbb{R}$，其中 $r^{*}$ 包含所有小于 $r$ 的有理数 $p$。这些分割满足以下性质：
 
-(a) $r^{*}+s^{*}=(r+s)^{*}$。
-(b) $r^{*}s^{*}=(rs)^{*}$。
+(a) $r^{*}+s^{*}=(r+s)^{*}$，
+(b) $r^{*}s^{*}=(rs)^{*}$，
 (c) $r^{*}<s^{*}$ 当且仅当 $r<s$。
 
 对于 (a)，取 $p \in r^{*}+s^{*}$，则 $p=u+v$，其中 $u<r,v<s$，于是 $p<r+s$，从而 $p \in(r+s)^{*}$。反之，设 $p \in(r+s)^{*}$，则 $p<r+s$，取 $t=(r+s-p) /2$，即得 $p=(r-t)+(s-t) \in r^{*}+s^{*}$。
@@ -563,8 +561,6 @@ $$
 
 # The Complex Field 复数域
 
-本节通过实数构造出了复数域，并给出了复数的若干基本代数性质。
-
 ## Definition 1.21 complex number 复数
 
 一个复数是实数的有序对 $(a,b)$，所有复数构成的集合记作 $\mathbb{C}$。
@@ -639,9 +635,9 @@ $i^{2}=-1$。
 
 设 $z,w \in \mathbb{C}$，则
 
-1. $\overline{z+w}=\overline{z}+\overline{w}$。
-2. $\overline{zw}=\overline{z}\cdot \overline{w}$。
-3. $z+\overline{z}=2\mathrm{Re}(z),z-\overline{z}=2i\mathrm{Im}(z)$。
+1. $\overline{z+w}=\overline{z}+\overline{w}$，
+2. $\overline{zw}=\overline{z}\cdot \overline{w}$，
+3. $z+\overline{z}=2\mathrm{Re}(z),z-\overline{z}=2i\mathrm{Im}(z)$，
 4. 如果 $z\neq 0$，那么 $z \overline{z}$ 是正实数。
 
 ### Proof
@@ -658,10 +654,10 @@ $i^{2}=-1$。
 
 设 $z,w \in \mathbb{C}$，则
 
-1. （正定性）$\lvert z \rvert\geq 0$，其中等号成立当且仅当 $z=0$。
-2. $\lvert \overline{z} \rvert=\lvert z \rvert$。
-3. $\lvert zw \rvert=\lvert z \rvert\lvert w \rvert$。
-4. $\lvert \mathrm{Re}(z) \rvert\leq\lvert z \rvert$。
+1. （正定性）$\lvert z \rvert\geq 0$，其中等号成立当且仅当 $z=0$，
+2. $\lvert \overline{z} \rvert=\lvert z \rvert$，
+3. $\lvert zw \rvert=\lvert z \rvert\lvert w \rvert$，
+4. $\lvert \mathrm{Re}(z) \rvert\leq\lvert z \rvert$，
 5. （三角不等式）$\lvert z+w \rvert\leq\lvert z \rvert+\lvert w \rvert$。
 
 ### Proof
@@ -778,10 +774,10 @@ $$
 
 设 $\mathbf{x},\mathbf{y},\mathbf{z}\in \mathbb{R}^{k}$ 且 $\alpha \in \mathbb{R}$，则
 
-1. （正定性）$\lvert \mathbf{x} \rvert\geq 0$，等号成立当且仅当 $\mathbf{x}=\mathbf{0}$。
-2. （齐次性）$\lvert \alpha \mathbf{x} \rvert=\lvert \alpha \rvert\lvert \mathbf{x} \rvert$。
-3. （Cauchy-Schwarz）$\lvert \mathbf{x}\cdot \mathbf{y} \rvert\leq\lvert \mathbf{x} \rvert\lvert \mathbf{y} \rvert$。
-4. （三角不等式 I）$\lvert \mathbf{x}+\mathbf{y} \rvert\leq\lvert \mathbf{x} \rvert+\lvert \mathbf{y} \rvert$。
+1. （正定性）$\lvert \mathbf{x} \rvert\geq 0$，等号成立当且仅当 $\mathbf{x}=\mathbf{0}$，
+2. （齐次性）$\lvert \alpha \mathbf{x} \rvert=\lvert \alpha \rvert\lvert \mathbf{x} \rvert$，
+3. （Cauchy-Schwarz）$\lvert \mathbf{x}\cdot \mathbf{y} \rvert\leq\lvert \mathbf{x} \rvert\lvert \mathbf{y} \rvert$，
+4. （三角不等式 I）$\lvert \mathbf{x}+\mathbf{y} \rvert\leq\lvert \mathbf{x} \rvert+\lvert \mathbf{y} \rvert$，
 5. （三角不等式 II）$\lvert \mathbf{x}-\mathbf{z} \rvert\leq\lvert \mathbf{x}-\mathbf{y} \rvert+\lvert \mathbf{y}-\mathbf{z} \rvert$。
 
 ### Proof
