@@ -393,6 +393,8 @@ M=\sup f(X), \quad m=\inf f(X)
 \end{gather}
 $$
 
+即证存在 $p,q \in X$ 使得 $M=f(p),m=f(q)$。
+
 ## Theorem 4.20
 
 设 $f$ 是一个从紧致度量空间 $X$ 到度量空间 $Y$ 的连续双射，则定义为
@@ -622,7 +624,7 @@ $$
 
 $f(x-)=q$ 是类似的，其中我们将 $x<t<x+\delta$ 替换为 $x-\delta<t<x$。
 
-比较一下 $\lim_{ t \to x }f(t)=q$ 的定义
+比较一下 $\lim_{ t \to x }f(t)=q$ 的定义：对任意 $\varepsilon>0$，存在 $\delta>0$ 使得对任意 $t \in(a,b)$ 有
 
 $$
 \begin{gather}
