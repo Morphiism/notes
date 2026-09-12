@@ -455,7 +455,7 @@ d_{Y}(f(p),f(q))\leq d_{Y}(f(p),f(x))+d_{Y}(f(x),f(q))<\frac{\varepsilon}{2}+\fr
 \end{gather}
 $$
 
-因此 $f$ 在 $B_{X}(x,\delta)$ 上一致连续。（事实上，我们有更强的结论：$\operatorname{diam} f(B_{X}(x,\delta))<\varepsilon$，因为在邻域内我们不需要选取 $\delta$。）
+因此 $f$ 在 $B_{X}(x,\delta)$ 上一致连续。（事实上，我们有更强的结论：$\operatorname{diam} f(B_{X}(x,\delta))\leq\varepsilon$，因为在邻域内我们不需要选取 $\delta$。）
 
 要将局部一致连续加强为全局一致连续，这里就是 $X$ 的紧致性发挥作用的时刻：它允许我们用有限个这样的邻域 $B_{X}(x,\delta)$ 覆盖 $X$，而从单个邻域到有限个邻域的推广是容易实现的。
 
@@ -594,13 +594,13 @@ $$
 
 $$
 \begin{gather}
-f(x+)=q
+\lim_{ t \to x+ } f(t)=f(x+)=q
 \end{gather}
 $$
 
 如果对任意 $(x,b)$ 中满足 $t_{n}\to x$ 的序列 $(t_{n})$ 有 $f(t_{n})\to q$。
 
-取 $a<x\leq b$，我们类似地定义 $f$ 在 $x$ 处的左极限 $f(x-)$，其中我们将序列 $(t_{n})$ 限制在 $(a,x)$ 中。
+取 $a<x\leq b$，我们类似地定义 $f$ 在 $x$ 处的左极限 $\lim_{ t \to x- }f(t)=f(x-)$，其中我们将序列 $(t_{n})$ 限制在 $(a,x)$ 中。
 
 ## Proposition 4.28
 
@@ -784,17 +784,17 @@ $$
 
 $$
 \begin{gather}
-f(x)=\sum_{x_{n}\leq x} c_{n} \quad (a<x<b)
+f(x)=\sum_{x_{n}< x} c_{n} \quad (a<x<b)
 \end{gather}
 $$
 
-显然以上级数对任意 $x$ 都绝对收敛，因此我们可以按任意顺序对 $\leq x$ 的 $x_{n}$ 求和。容易验证函数 $f$ 满足以下性质：
+显然以上级数对任意 $x$ 都绝对收敛，因此我们可以按任意顺序对小于 $x$ 的 $x_{n}$ 求和。容易验证函数 $f$ 满足以下性质：
 
 1. $f$ 在 $(a,b)$ 上单调递增，
 2. $f$ 在 $E$ 上的任意点处间断，特别地，$f(x_{n}+)-f(x_{n}-)=c_{n}$，
 3. $f$ 在 $(a,b)\setminus E$ 上连续。
 
-此外，我们还可知 $f(x+)=f(x)$ 对任意 $x \in(a,b)$ 成立。满足这一性质的函数 $f$ 称为是右连续的。如果我们将 $x_{n}\leq x$ 替换为 $x_{n}<x$，那么此时 $f$ 就是左连续的。
+此外，我们还可知 $f(x-)=f(x)$ 对任意 $x \in(a,b)$ 成立。满足这一性质的函数 $f$ 称为是左连续的。如果我们将 $x_{n}<x$ 替换为 $x_{n}\leq x$，那么此时 $f$ 就是右连续的。
 
 （证明思路：由于 $\sum c_{n}$ 收敛，因此对任意 $\varepsilon>0$，存在 $N$ 使得 $s-s_{N}=\sum_{n=N+1}^{\infty}c_{n}<\varepsilon$，于是只需考虑有限个点 $x_{1},\dots,x_{N}$ 的影响。）
 
