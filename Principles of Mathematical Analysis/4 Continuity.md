@@ -311,7 +311,7 @@ P(\mathbf{x})=\sum c_{n_{1},\dots,n_{k}} x_{1}^{n_{1}}\cdots x_{k}^{n_{k}}
 \end{gather}
 $$
 
-在 $\mathbb{R}^{k}$ 上连续。其中 $c_{n_{1},\dots,n_{k}}\in \mathbb{C}$，$n_{i}\in \mathbb{N}$，且上面的求和中只有有限个非零项。
+其在 $\mathbb{R}^{k}$ 上连续。其中 $c_{n_{1},\dots,n_{k}}\in \mathbb{C}$，$n_{i}\in \mathbb{N}$，且上面的求和中只有有限个非零项。
 
 更进一步，任何有理函数 $P /Q$，其中 $P,Q$ 是多项式，在 $Q\neq 0$ 的任意点上均连续。
 
