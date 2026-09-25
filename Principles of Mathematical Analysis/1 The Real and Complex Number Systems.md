@@ -629,7 +629,7 @@ $i^{2}=-1$。
 
 ## Definition 1.27 conjugate 共轭，real part 实部，imaginary part 虚部
 
-设 $a,b \in \mathbb{R}$，$z=a+bi$，则称复数 $\overline{z}=a-bi$ 是 $z$ 的共轭，$a,b$ 分别是 $z$ 的实部和虚部，记作 $a=\mathrm{Re}(z),b=\mathrm{Im}(z)$。
+设 $a,b \in \mathbb{R}$，$z=a+bi$，则称复数 $\overline{z}=a-bi$ 是 $z$ 的共轭，$a,b$ 分别是 $z$ 的实部和虚部，记作 $a=\operatorname{Re}(z),b=\operatorname{Im}(z)$。
 
 ## Theorem 1.28
 
@@ -637,7 +637,7 @@ $i^{2}=-1$。
 
 1. $\overline{z+w}=\overline{z}+\overline{w}$，
 2. $\overline{zw}=\overline{z}\cdot \overline{w}$，
-3. $z+\overline{z}=2\mathrm{Re}(z),z-\overline{z}=2i\mathrm{Im}(z)$，
+3. $z+\overline{z}=2\operatorname{Re}(z),z-\overline{z}=2i\operatorname{Im}(z)$，
 4. 如果 $z\neq 0$，那么 $z \overline{z}$ 是正实数。
 
 ### Proof
@@ -657,7 +657,7 @@ $i^{2}=-1$。
 1. （正定性）$\lvert z \rvert\geq 0$，其中等号成立当且仅当 $z=0$，
 2. $\lvert \overline{z} \rvert=\lvert z \rvert$，
 3. $\lvert zw \rvert=\lvert z \rvert\lvert w \rvert$，
-4. $\lvert \mathrm{Re}(z) \rvert\leq\lvert z \rvert$，
+4. $\lvert \operatorname{Re}(z) \rvert\leq\lvert z \rvert$，
 5. （三角不等式）$\lvert z+w \rvert\leq\lvert z \rvert+\lvert w \rvert$。
 
 ### Proof
@@ -684,7 +684,7 @@ $$
 \begin{align}
 \lvert z+w \rvert ^{2}&=(z+w)(\overline{z}+\overline{w}) \\
 &=z\overline{z}+w\overline{w}+z \overline{w}+\overline{z}w \\
-&=\lvert z \rvert ^{2}+\lvert w \rvert ^{2}+2\mathrm{Re}(z \overline{w}) \\
+&=\lvert z \rvert ^{2}+\lvert w \rvert ^{2}+2\operatorname{Re}(z \overline{w}) \\
 &\leq \lvert z \rvert ^{2}+\lvert w \rvert ^{2}+2\lvert zw \rvert \\
 &=(\lvert z \rvert +\lvert w \rvert )^{2} 
 \end{align}

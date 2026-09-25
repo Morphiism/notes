@@ -187,13 +187,57 @@ $$
 
 当 $t\to 0$ 时，上式趋于 $0$，因此 $f'(0)=0$。从而 $f$ 在 $\mathbb{R}$ 上可微，但 $f'$ 不是连续函数，因为 $\cos(1 /x)$ 在 $x=0$ 处不连续。
 
+## Theorem 5.7
+
+设 $X,Y\subset \mathbb{R}$，$f\colon X\to Y$ 是双射，其反函数记作 $f^{-1}$。假设 $x_{0}\in X$ 和 $y_{0}\in Y$ 分别是 $X,Y$ 的极限点，满足 $f(x_{0})=y_{0}$。如果 $f$ 在 $x_{0}$ 处可微，$f^{-1}$ 在 $y_{0}$ 处连续，且 $f'(x_{0})\neq 0$，则 $f^{-1}$ 在 $y_{0}$ 处可微，并且
+
+$$
+\begin{gather}
+(f^{-1})'(y_{0})=\frac{1}{f'(x_{0})}
+\end{gather}
+$$
+
+### Proof
+
+我们需要证明
+
+$$
+\begin{gather}
+\lim_{ y \to y_{0} } \frac{f^{-1}(y)-f^{-1}(y_{0})}{y-y_{0}}=\frac{1}{f'(x_{0})}
+\end{gather}
+$$
+
+这等价于证明：对任意 $Y\setminus\{ y_{0} \}$ 中满足 $y_{n}\to y_{0}$ 的序列 $(y_{n})$ 有
+
+$$
+\begin{gather}
+\lim_{ n \to \infty } \frac{f^{-1}(y_{n})-f^{-1}(y_{0})}{y_{n}-y_{0}}=\frac{1}{f'(x_{0})}
+\end{gather}
+$$
+
+由于 $f$ 是双射，因此 $x_{n}=f^{-1}(y_{n})\neq x_{0}$，从而 $(x_{n})$ 是 $X\setminus\{ x_{0} \}$ 中的序列。并且由于 $f^{-1}$ 在 $y_{0}$ 处连续，因此 $x_{n}=f^{-1}(y_{n})\to f^{-1}(y_{0})=x_{0}$。又由于 $f$ 在 $x_{0}$ 处可微，故
+
+$$
+\begin{gather}
+\lim_{ n \to \infty } \frac{f(x_{n})-f(x_{0})}{x_{n}-x_{0}}=f'(x_{0})
+\end{gather}
+$$
+
+从而
+
+$$
+\begin{gather}
+\lim_{ n \to \infty } \frac{x_{n}-x_{0}}{f(x_{n})-f(x_{0})}=\lim_{ n \to \infty } \frac{f^{-1}(y_{n})-f^{-1}(y_{0})}{y_{n}-y_{0}}=\frac{1}{f'(x_{0})}
+\end{gather}
+$$
+
 # Mean Value Theorems 中值定理
 
-## Definition 5.7 local maximum (minimum) 局部最大值（最小值）
+## Definition 5.8 local maximum (minimum) 局部最大值（最小值）
 
 设 $f$ 是度量空间 $X$ 上的实值函数，称 $f$ 在 $p \in X$ 处有局部最大值（最小值）如果存在 $\delta>0$ 使得对任意 $q \in B_{X}(p,\delta)$ 有 $f(q)\leq f(p)$（$f(q)\geq f(p)$）。
 
-## Theorem 5.8 (Fermat)
+## Theorem 5.9 (Fermat)
 
 设 $f$ 在 $[a,b]$ 上有定义，如果 $f$ 在 $x \in[a,b]$ 处可微且有局部最大值，则 $f'(x)=0$。
 
@@ -201,7 +245,7 @@ $$
 
 ### Proof
 
-取 $\delta>0$ 如 [[#Definition 5.7 local maximum (minimum) 局部最大值（最小值）]] 所示。当 $x-\delta<t<x$ 时，我们有
+取 $\delta>0$ 如 [[#Definition 5.8 local maximum (minimum) 局部最大值（最小值）]] 所示。当 $x-\delta<t<x$ 时，我们有
 
 $$
 \begin{gather}
@@ -221,7 +265,7 @@ $$
 
 因此当 $t\to x$ 时有 $f'(x)\leq 0$。结合以上两个不等式，即得 $f'(x)=0$。
 
-## Theorem 5.9 (Cauchy)
+## Theorem 5.10 (Cauchy)
 
 设 $f,g$ 在 $[a,b]$ 上连续，在 $(a,b)$ 上可微，则存在 $x \in(a,b)$ 使得
 
@@ -251,11 +295,11 @@ $$
 
 下面我们要证存在 $x \in(a,b)$ 使得 $h'(x)=0$。（Rolle 定理）
 
-如果 $h$ 是常数，那么 $h'(x)=0$ 对任意 $x$ 成立。否则，$h$ 必然在 $(a,b)$ 中的一点 $x$ 取到它的最大值或者最小值（根据最值定理），从而根据 [[#Theorem 5.8 (Fermat)]] 知 $h'(x)=0$，这就完成了证明。
+如果 $h$ 是常数，那么 $h'(x)=0$ 对任意 $x$ 成立。否则，$h$ 必然在 $(a,b)$ 中的一点 $x$ 取到它的最大值或者最小值（根据最值定理），从而根据 [[#Theorem 5.9 (Fermat)]] 知 $h'(x)=0$，这就完成了证明。
 
 以上定理通常称为广义中值定理，从而与下面的经典中值定理做区分：
 
-## Theorem 5.10 (Lagrange)
+## Theorem 5.11 (Lagrange)
 
 设 $f$ 在 $[a,b]$ 上连续，在 $(a,b)$ 上可微，则存在 $x \in(a,b)$ 使得
 
@@ -267,9 +311,9 @@ $$
 
 ### Proof
 
-在 [[#Theorem 5.9 (Cauchy)]] 中取 $g(x)=x$ 即可。
+在 [[#Theorem 5.10 (Cauchy)]] 中取 $g(x)=x$ 即可。
 
-## Theorem 5.11
+## Theorem 5.12
 
 设 $f$ 在 $(a,b)$ 上可微，则对任意 $x \in(a,b)$，如果
 
@@ -293,7 +337,7 @@ $$
 
 我们从 [[#Example 5.6]](b) 中看到，一个可微函数 $f$ 可以有一个在某点处间断的导数 $f'$。然而，所有在某个闭区间上有定义的导数与连续函数有一个共同点：它们都具有介值性。这也从另一个方面说明了介值性并不蕴含连续性。
 
-## Theorem 5.12 (Darboux)
+## Theorem 5.13 (Darboux)
 
 设 $f$ 是 $[a,b]$ 上的实值可微函数，并假设 $f'(a)<\lambda<f'(b)$，则存在 $x \in(a,b)$ 使得 $f'(x)=\lambda$。
 
@@ -305,7 +349,7 @@ $$
 
 由于 $g'(a)<0$，因此存在 $t_{1}\in(a,b)$ 使得 $g(t_{1})<g(a)$。同理存在 $t_{2}\in(a,b)$ 使得 $g(t_{2})<g(b)$。这表明 $g$ 在 $(a,b)$ 中的一点 $x$ 处取到最小值，从而 $g'(x)=0$。
 
-## Corollary 5.13
+## Corollary 5.14
 
 如果 $f$ 在 $[a,b]$ 上可微，那么 $f'$ 在 $[a,b]$ 上没有简单间断点。
 
@@ -313,7 +357,7 @@ $$
 
 # L'Hospital's Rule
 
-## Theorem 5.14 (L'Hospital)
+## Theorem 5.15 (L'Hospital)
 
 设 $f,g$ 在 $(a,b)$ 上可微，其中 $-\infty\leq a<b\leq+\infty$，且对任意 $x \in(a,b)$ 有 $g'(x)\neq 0$。假设
 
@@ -399,7 +443,7 @@ L'Hospital 法则通常用来处理所谓的 $0 /0$ 型或 $A /\infty$ 型未定
 
 # Derivatives of Higher Order 高阶导数
 
-## Definition 5.15
+## Definition 5.16
 
 如果 $f$ 在一个区间上有导数 $f'$，而 $f'$ 自身在区间上也可导，我们用 $f''$ 来表示 $f'$ 的导数，称为 $f$ 的二阶导数。以此类推，我们可以得到函数
 
@@ -415,7 +459,7 @@ $$
 
 # Taylor's Theorem 泰勒定理
 
-## Theorem 5.16 (Taylor)
+## Theorem 5.17 (Taylor)
 
 设 $f$ 是 $[a,b]$ 上的实值函数，$n \in \mathbb{N}^{*}$，$f^{(n-1)}$ 在 $[a,b]$ 上连续，$f^{(n)}(t)$ 在任意 $t \in (a,b)$ 上有定义。设 $\alpha,\beta$ 是 $[a,b]$ 上不同的两点，并定义
 
@@ -475,7 +519,7 @@ $M$ 的定义表明 $g(\beta)=0$，因此根据中值定理，存在 $x_{1}$ 介
 
 # Differentiation of Vector-Valued Functions 向量值函数的微分
 
-## Remark 5.17
+## Remark 5.18
 
 [[#Definition 5.1 derivative 导数，differentiable 可微的]] 可以原封不动地应用到定义在区间 $[a,b]$ 上的复值函数 $f$ 上，并且 [[#Theorem 5.2]] 和 [[#Theorem 5.3]]，以及它们的证明，也同样对 $f$ 适用。如果
 
@@ -517,7 +561,7 @@ $$
 
 然而，当我们转向中值定理以及它的一个推论，即 L'Hospital 法则时，情况发生了改变。下面的例子表明，对于复值函数，这两个定理并不总是成立。
 
-## Example 5.18
+## Example 5.19
 
 对 $x \in \mathbb{R}$，定义
 
@@ -545,7 +589,7 @@ $$
 
 因此在这种情况下中值定理不成立。
 
-## Example 5.19
+## Example 5.20
 
 在开区间 $(0,1)$ 上，定义 $f(x)=x$ 与
 
@@ -589,7 +633,7 @@ $$
 
 当 $x\to 0$ 时上式趋于 $0$，因此在这种情况下 L'Hospital 法则不成立。
 
-然而，对于向量值函数的确存在一个弱化版本的中值定理：从 [[#Theorem 5.10 (Lagrange)]] 中可知
+然而，对于向量值函数的确存在一个弱化版本的中值定理：从 [[#Theorem 5.11 (Lagrange)]] 中可知
 
 $$
 \begin{gather}
@@ -597,7 +641,7 @@ $$
 \end{gather}
 $$
 
-## Theorem 5.20
+## Theorem 5.21
 
 设 $\mathbf{f}\colon [a,b]\to \mathbb{R}^{k}$ 是连续函数，且在 $(a,b)$ 上可微，则存在 $x \in(a,b)$ 使得
 

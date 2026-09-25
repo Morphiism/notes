@@ -1434,11 +1434,11 @@ $$
 \end{gather}
 $$
 
-[[#Theorem 7.33 (Stone-Weierstrass)]] 对复代数并不成立。事实上，我们还缺少一个条件，$\mathcal{A}$ 对于复共轭封闭：如果 $f \in \mathcal{A}$，那么 $\overline{f}\in \mathcal{A}$。实代数则自动满足了这一条件。
+[[#Theorem 7.33 (Stone-Weierstrass)]] 对复代数并不成立。事实上，我们还缺少一个条件，$\mathcal{A}$ 对于复共轭封闭（自伴随的）：如果 $f \in \mathcal{A}$，那么 $\overline{f}\in \mathcal{A}$。实代数则自动满足了这一条件。
 
 ## Theorem 7.34
 
-设 $\mathcal{A}$ 是紧致集 $K$ 上的复值连续函数构成的代数，其对复共轭封闭，在 $K$ 上分离点，且不在任何点上消失。则 $\mathcal{A}$ 的一致闭包 $\mathcal{B}$ 包含了 $K$ 上的所有复值连续函数。换言之，$\mathcal{A}$ 在 $C(K)$ 中稠密。
+设 $\mathcal{A}$ 是紧致集 $K$ 上的复值连续函数构成的自伴随代数，在 $K$ 上分离点，且不在任何点上消失。则 $\mathcal{A}$ 的一致闭包 $\mathcal{B}$ 包含了 $K$ 上的所有复值连续函数。换言之，$\mathcal{A}$ 在 $C(K)$ 中稠密。
 
 ### Proof
 
