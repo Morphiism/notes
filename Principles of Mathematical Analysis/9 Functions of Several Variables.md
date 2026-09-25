@@ -2127,7 +2127,7 @@ D_{1}f_{n}(\mathbf{x}) & \cdots & D_{n}f_{n}(\mathbf{x})
 \end{gather}
 $$
 
-对于最右侧的表达式我们也用符号
+我们也用符号
 
 $$
 \begin{gather}
@@ -2135,7 +2135,7 @@ $$
 \end{gather}
 $$
 
-来表示。
+来表示 $\mathbf{f}=(f_{1},\dots,f_{n})$ 的 Jacobian。
 
 利用行列式的性质，我们可以将反函数定理中的条件 $\mathbf{f}'(\mathbf{a})$ 可逆替换为 $J_{\mathbf{f}}(\mathbf{a})\neq 0$。如果隐函数定理是以 $(9.29.1)$ 的形式叙述的，那么定理中关于线性变换 $A_{x}$ 可逆的假设就可以替换为
 
