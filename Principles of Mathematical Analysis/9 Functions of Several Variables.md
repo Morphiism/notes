@@ -2,7 +2,7 @@
 
 ## Definition 9.1 vector space 向量空间，linear combination 线性组合，span 张成，linear independent (dependent) 线性无关（相关），dimension 维数，basis 基
 
-(a) 称 $X\subset \mathbb{R}^{n}$ 是一个向量空间，如果对任意 $\mathbf{x},\mathbf{y}\in X$ 和 $c \in \mathbb{R}$ 有 $\mathbf{x}+\mathbf{y}\in X$ 且 $c\mathbf{x}\in X$。换句话说，$X$ 对加法和数乘封闭。
+(a) 称非空集 $X\subset \mathbb{R}^{n}$ 是一个向量空间，如果对任意 $\mathbf{x},\mathbf{y}\in X$ 和 $c \in \mathbb{R}$ 有 $\mathbf{x}+\mathbf{y}\in X$ 且 $c\mathbf{x}\in X$。换句话说，$X$ 对加法和数乘封闭。
 
 (b) 设 $\mathbf{x}_{1},\dots,\mathbf{x}_{k}\in \mathbb{R}^{n}$，$c_{1},\dots,c_{k}\in \mathbb{R}$，我们称
 
