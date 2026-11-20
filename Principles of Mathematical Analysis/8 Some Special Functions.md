@@ -1149,7 +1149,7 @@ $$
 
 即 $\gamma_{m}=c_{m}$。
 
-## Theorem 8.13 (Bessel)
+## Theorem 8.13 (Bessel 不等式)
 
 如果 $(\phi_{n})$ 在 $[a,b]$ 上标准正交，且
 
@@ -1279,7 +1279,7 @@ $$
 2. $g(t),\cos(t /2),\sin(t /2)$ 是有界函数，
 3. $f$ 是 Riemann 可积函数，故 $\int_{-\pi}^{\pi} \lvert f \rvert^{2}<\infty$。
 
-根据 [[#Theorem 8.13 (Bessel)]] 即证当 $N\to \infty$ 时 $s_{N}(f;x)-f(x)\to 0$。
+根据 Bessel 不等式即证当 $N\to \infty$ 时 $s_{N}(f;x)-f(x)\to 0$。
 
 ## Corollary 8.15 (局部化定理)
 
@@ -1671,7 +1671,7 @@ $$
 \end{gather}
 $$
 
-## Theorem 8.22 (Stirling)
+## Theorem 8.22 (Stirling's formula)
 
 $$
 \begin{gather}

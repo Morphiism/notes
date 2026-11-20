@@ -357,7 +357,7 @@ $$
 
 # L'Hôspital's Rule
 
-## Theorem 5.15 (L'Hôspital)
+## Theorem 5.15 (L'Hôspital's rule)
 
 设 $f,g$ 在 $(a,b)$ 上可微，其中 $-\infty\leq a<b\leq+\infty$，且对任意 $x \in(a,b)$ 有 $g'(x)\neq 0$。假设
 

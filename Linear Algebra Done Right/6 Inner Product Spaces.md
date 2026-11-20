@@ -290,7 +290,7 @@ u=cv+w, \quad \langle w,v \rangle =0
 \end{gather}
 $$
 
-### Theorem 6.13 (Cauchy-Schwarz)
+### Theorem 6.13 (Cauchy-Schwarz 不等式)
 
 设 $u,v \in V$，则
 
@@ -483,7 +483,7 @@ $$
 
 那么 [[#Theorem 6.19]] 给出 $\lvert a_{1} \rvert^{2}+\dots+\lvert a_{m} \rvert^{2}=0$，即 $a_{1}=\dots=a_{m}=0$。因此 $e_{1},\dots,e_{m}$ 线性无关。
 
-### Theorem 6.21 (Bessel)
+### Theorem 6.21 (Bessel 不等式)
 
 设 $e_{1},\dots,e_{m}\in V$ 标准正交，则对任意 $v \in V$ 有
 

@@ -8,7 +8,7 @@
 
 设 $A$ 是 $\mathbb{R}^{n}$ 中的开集。本节我们证明，如果 $A$ 具有一个我们称为“星状”的性质，那么 $A$ 上的任意闭形式 $\omega$ 都自动是恰当的。这一结论正是著名的 Poincaré 引理。
 
-### Theorem 39.1 (Leibnitz)
+### Theorem 39.1 (Leibnitz's rule)
 
 设 $Q$ 是 $\mathbb{R}^{n}$ 中的长方体，$f\colon Q\times[a,b]\to \mathbb{R}$ 连续。将 $f$ 写成 $f(\mathbf{x},t)$，其中 $\mathbf{x}\in Q$ 且 $t \in[a,b]$，则函数
 
@@ -351,7 +351,7 @@ $k=0$ 的情况同理。这就完成了证明。
 
 在上图中，$A$ 关于 $\mathbf{p}$ 是星状的，但关于 $\mathbf{q}$ 不是星状的。$B$ 关于其中的每一点都是星状的，这就是说 $B$ 是一个凸集。$C$ 关于其中每一点都不是星状的。
 
-### Theorem 39.5 (Poincaré Lemma)
+### Theorem 39.5 (Poincaré lemma)
 
 设 $A$ 是 $\mathbb{R}^{n}$ 中的星状开集。如果 $\omega$ 是 $A$ 上的闭 $k$-形式，则 $\omega$ 是恰当的。
 

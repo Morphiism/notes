@@ -6,7 +6,7 @@
 
 设 $A$ 是集合，我们用 $x \in A$ 来表示 $x$ 是 $A$ 的元素，否则用 $x \not\in A$ 来表示 $x$ 不是 $A$ 的元素。空集 $\varnothing$ 是不包含任何元素的集合。如果集合 $A$ 的所有元素都是 $B$ 的元素，则称 $A$ 是 $B$ 的子集，记作 $A\subset B$。如果 $A\subset B$ 且 $A\neq B$，则称 $A$ 是 $B$ 的真子集。
 
-## Definition 1.2 $\mathbb{Q}$
+## Definition 1.2
 
 我们用 $\mathbb{Q}$ 来表示所有有理数构成的集合。
 
@@ -539,7 +539,7 @@ $$
 
 # The Extended Real Number System 扩展实数系
 
-## Definition 1.20 $\overline{\mathbb{R}}$
+## Definition 1.20
 
 扩展实数系 $\overline{\mathbb{R}}$ 包含了实数域 $\mathbb{R}$，以及两个不同对象 $+\infty$ 和 $-\infty$。我们保留 $\mathbb{R}$ 上的标准序关系，并对任意 $x \in \mathbb{R}$ 定义
 
@@ -692,7 +692,7 @@ $$
 
 两边取平方根即证。
 
-## Theorem 1.31 (Cauchy-Schwarz)
+## Theorem 1.31 (Cauchy-Schwarz 不等式)
 
 如果 $a_{1},\dots,a_{n},b_{1},\dots,b_{n}$ 是复数，则
 
@@ -730,7 +730,7 @@ $$
 
 # Euclidean Spaces 欧几里得空间
 
-## Definition 1.32 $\mathbb{R}^{k}$
+## Definition 1.32
 
 对任意正整数 $k$，定义 $\mathbb{R}^{k}$ 为所有 $k$ 元组
 
