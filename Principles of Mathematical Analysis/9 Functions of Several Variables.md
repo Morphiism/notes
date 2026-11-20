@@ -555,7 +555,7 @@ $$
 \end{gather}
 $$
 
-## Definition 9.12 Frechet differentiable
+## Definition 9.12 Fréchet differentiable
 
 设 $E\subset \mathbb{R}^{n}$ 是开集，$\mathbf{f}\colon E\to \mathbb{R}^{m}$，$\mathbf{x}\in E$。如果存在线性变换 $A\in L(\mathbb{R}^{n},\mathbb{R}^{m})$ 使得
 
@@ -565,7 +565,7 @@ $$
 \end{gather}
 $$
 
-则我们称 $\mathbf{f}$ 在 $\mathbf{x}$ 处 Frechet 可微，并定义它的 Frechet 导数为
+则我们称 $\mathbf{f}$ 在 $\mathbf{x}$ 处 Fréchet 可微，并定义它的 Fréchet 导数为
 
 $$
 \begin{gather}
@@ -587,7 +587,7 @@ $$
 
 ## Theorem 9.13
 
-定义 $E,\mathbf{f}$ 如 [[#Definition 9.12 Frechet differentiable]] 所示，且 $A_{1},A_{2}$ 均满足 $(9.12.1)$，则 $A_{1}=A_{2}$。
+定义 $E,\mathbf{f}$ 如 [[#Definition 9.12 Fréchet differentiable]] 所示，且 $A_{1},A_{2}$ 均满足 $(9.12.1)$，则 $A_{1}=A_{2}$。
 
 ### Proof
 
@@ -635,7 +635,7 @@ $$
 \end{gather}
 $$
 
-(b) 假设 $E,\mathbf{f}$ 如 [[#Definition 9.12 Frechet differentiable]] 所示且 $\mathbf{f}$ 在 $E$ 上可微，则对任意 $\mathbf{x}\in E$，$\mathbf{f}'(\mathbf{x})$ 是从 $\mathbb{R}^{n}$ 到 $\mathbb{R}^{m}$ 的线性变换。而 $\mathbf{f}'$ 自身也是一个函数：它将 $\mathbf{x}\in E$ 映射到 $\mathbf{f}'(\mathbf{x})\in L(\mathbb{R}^{n},\mathbb{R}^{m})$。
+(b) 假设 $E,\mathbf{f}$ 如 [[#Definition 9.12 Fréchet differentiable]] 所示且 $\mathbf{f}$ 在 $E$ 上可微，则对任意 $\mathbf{x}\in E$，$\mathbf{f}'(\mathbf{x})$ 是从 $\mathbb{R}^{n}$ 到 $\mathbb{R}^{m}$ 的线性变换。而 $\mathbf{f}'$ 自身也是一个函数：它将 $\mathbf{x}\in E$ 映射到 $\mathbf{f}'(\mathbf{x})\in L(\mathbb{R}^{n},\mathbb{R}^{m})$。
 
 (c) 在 $(9.14.1)$ 中令 $\mathbf{h}\to \mathbf{0}$，我们立即得到：如果 $\mathbf{f}$ 在 $\mathbf{x}$ 处可微，那么它在该点连续。
 

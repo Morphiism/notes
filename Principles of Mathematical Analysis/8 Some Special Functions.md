@@ -1507,7 +1507,7 @@ $$
 \end{align}
 $$
 
-(b) 是 (a) 以及 $\Gamma(1)=1$ 的推论。对于 (c)，取 $1<p<\infty$ 以及 $1 /p+1 /q=1$，应用 Holder 不等式得
+(b) 是 (a) 以及 $\Gamma(1)=1$ 的推论。对于 (c)，取 $1<p<\infty$ 以及 $1 /p+1 /q=1$，应用 Hölder 不等式得
 
 $$
 \begin{align}
@@ -1609,7 +1609,7 @@ $$
 
 ### Proof
 
-我们有 $\mathrm{B}(1,y)=1 /y$，并且根据 Holder 不等式，$\log \mathrm{B}(x,y)$ 是关于 $x$ 的凸函数。应用分部积分，有
+我们有 $\mathrm{B}(1,y)=1 /y$，并且根据 Hölder 不等式，$\log \mathrm{B}(x,y)$ 是关于 $x$ 的凸函数。应用分部积分，有
 
 $$
 \begin{align}
