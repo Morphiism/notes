@@ -883,7 +883,7 @@ B^{n}(a)=\{ \mathbf{x}\in \mathbb{R}^{n} : \lVert \mathbf{x} \rVert \leq a \}
 \end{gather}
 $$
 
-定义半径为 $a$ 的 $(n-1)$-球面 $S^{n-1}(a)$ 为
+定义半径为 $a$ 的 $n-1$ 球面 $S^{n-1}(a)$ 为
 
 $$
 \begin{gather}
